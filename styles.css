@@ -35,3 +35,11 @@
 @media(max-width:1050px){.hero-photo{inset:0;width:100%;height:100%;background-size:cover;background-position:62% center}}
 @media(max-width:740px){.hero-photo{inset:0;width:100%;height:100%;background-image:linear-gradient(0deg,#06111d 0%,rgba(6,17,29,.94) 27%,rgba(6,17,29,.18) 68%),url("assets/apex-woman-hero.webp");background-size:100% 100%,auto 64%;background-position:center,right top;background-repeat:no-repeat}.hero-inner{padding-top:310px;padding-bottom:75px}.hero:after{background:none}}
 @media(max-width:430px){.hero-inner{padding-top:285px}}
+
+/* Full-bleed gym photograph across the entire hero; no solid-color left panel. */
+.hero{background:#06111d}
+.hero-photo{position:absolute;inset:0;width:100%;height:100%;opacity:1;filter:none;background-image:linear-gradient(90deg,rgba(3,10,19,.52) 0%,rgba(3,10,19,.34) 39%,rgba(3,10,19,.02) 76%),url("assets/apex-woman-hero.webp");background-size:cover;background-position:center center;background-repeat:no-repeat}
+.hero:after{background:linear-gradient(0deg,rgba(6,17,29,.68),transparent 25%)}
+@media(max-width:1050px){.hero-photo{background-size:cover;background-position:60% center}}
+@media(max-width:740px){.hero-photo{inset:0;width:100%;height:100%;background-image:linear-gradient(0deg,rgba(6,17,29,.95) 0%,rgba(6,17,29,.80) 37%,rgba(6,17,29,.06) 85%),url("assets/apex-woman-hero.webp");background-size:cover;background-position:72% center}.hero-inner{padding-top:310px;padding-bottom:75px}.hero:after{background:none}}
+@media(max-width:430px){.hero-inner{padding-top:285px}}
