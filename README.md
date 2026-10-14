@@ -1,12 +1,11 @@
-# Apex Performance & Recovery — Homepage Concept
+# APEX Performance & Recovery — real photography update
 
-Independent, unofficial portfolio concept by Laurence Macaspac. Not affiliated with or commissioned by Apex Performance & Recovery.
+Unofficial portfolio concept. This ZIP contains the complete HTML, CSS, JavaScript source files.
 
-## Preview
-Open `index.html` in a browser. The page uses HTML, CSS, and JavaScript; no build step is required. The Manrope font loads from Google Fonts and requires internet access.
+## Upload to GitHub
+Replace `index.html`, `styles.css`, and `script.js` in your existing APEX repository. **Keep the existing `assets/` directory**, especially `image-02.webp` through `image-06.webp` used by the five technology cards. Those original image assets were not included in the files you uploaded here, so they cannot be bundled in this ZIP.
 
-## GitHub and Vercel
-Upload all files and the `assets` folder to the root of a new GitHub repository. In Vercel, import the repository, select **Other** as framework if prompted, leave the build command blank, and use the repository root as output directory.
+## Hero photograph
+The hero now loads a real athlete photograph hosted on Unsplash, instead of `assets/image-01.webp`. The photo is not AI-generated. It is loaded from Unsplash over the internet; it is not included as a local file. Photo page: https://unsplash.com/photos/man-in-black-tank-top-and-black-shorts-doing-push-up-IBlWVIGnXag
 
-## Limitations
-Booking, membership, and shopping are concept-only. Images are illustrative and are not photographs of the real Apex facility. Browser-side restrictions on dragging or right-clicking do not prevent copying code or images.
+This is an unofficial design concept, not the real Apex website. All booking/shop buttons remain demo-only.
