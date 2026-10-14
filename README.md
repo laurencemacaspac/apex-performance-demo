@@ -9,3 +9,5 @@ Replace `index.html`, `styles.css`, and `script.js` in your existing APEX reposi
 The hero now loads a real athlete photograph hosted on Unsplash, instead of `assets/image-01.webp`. The photo is not AI-generated. It is loaded from Unsplash over the internet; it is not included as a local file. Photo page: https://unsplash.com/photos/man-in-black-tank-top-and-black-shorts-doing-push-up-IBlWVIGnXag
 
 This is an unofficial design concept, not the real Apex website. All booking/shop buttons remain demo-only.
+
+Hero photo now covers the full width and height of the hero section, with no center seam.
